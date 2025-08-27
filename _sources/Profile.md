@@ -1,6 +1,8 @@
 # Profil Diri
 Nama : Elisa Fitriana
+
 Nim : 220411100120
+
 email : elisafiana3@Gmail.com
 
 Nama saya adalah Elisa Fitriana, seorang individu yang memiliki semangat belajar tinggi dan ketertarikan pada berbagai bidang, khususnya yang berkaitan dengan teknologi, pendidikan, dan kreativitas. Sejak menempuh pendidikan formal, saya terbiasa untuk selalu mencari tantangan baru, baik dalam bidang akademik maupun kegiatan organisasi. Hal ini mendorong saya untuk terus mengembangkan kemampuan analisis, komunikasi, serta manajemen waktu dalam menyelesaikan berbagai tugas.
