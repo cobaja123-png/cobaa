@@ -102,6 +102,8 @@ Web Structure Mining merupakan salah satu bagian dari web mining yang berkonsent
 3.	Memperbaiki praproses data atau pembangkitan fitur.
 4.	Meningkatkan jumlah dan kualitas data pelatihan.
 
+---
+
 # Daftar Pustaka
 1. Asmita, Andhini. 2025. “Manajemen Database Di Era Big Data: Teknologi Dan Tantangan.” *Jurnal Sains Student Research* 3(3):318–27.  
 
