@@ -53,12 +53,12 @@ Web Usage Mining adalah salah satu aspek dari web mining yang mengutamakan pengg
 
 </div>
 
-## Preprocessing (Pra-pemrosesan Data)
+## A. Preprocessing (Pra-pemrosesan Data)
 Tahap awal dari Penambangan Penggunaan Web adalah preprocessing, yang merujuk pada proses pengolahan awal terhadap data mentah yang diambil dari log web, baik berasal dari server, proxy, maupun browser. Log web sering kali berukuran besar, tidak terstruktur, dan mengandung banyak gangguan seperti kunjungan dari bot, permintaan file gambar, atau data duplikat yang tidak relevan untuk analisis. Oleh sebab itu, tahap ini bertujuan untuk membersihkan data, menyaring informasi yang penting, dan melakukan transformasi sehingga data dapat digunakan pada tahap berikutnya. Proses preprocessing sangat krusial karena kualitas data yang diterima akan sangat memengaruhi mutu pola yang dihasilkan.
 
-## Pattern Discovery (Penemuan Pola)
+## B. Pattern Discovery (Penemuan Pola)
 Setelah data dipersiapkan, langkah selanjutnya adalah penemuan pola, yaitu proses untuk menemukan pola atau informasi yang tidak terlihat dari data yang telah diproses. Berbagai metode penambangan data dapat diterapkan pada langkah ini, seperti penambangan aturan asosiasi untuk mengidentifikasi hubungan antara halaman atau perilaku pengguna, pengelompokan untuk mengatur pengguna dengan akses yang mirip, klasifikasi untuk mengidentifikasi pengguna ke dalam kategori tertentu, serta penambangan pola urutan untuk menemukan rangkaian kunjungan halaman yang sering terjadi. Proses ini menghasilkan pola perilaku pengguna yang dapat memberikan wawasan berharga tentang interaksi mereka dengan situs web.
-## Pattern Analysis (Analisis Pola)
+## C. Pattern Analysis (Analisis Pola)
 Tahap akhir adalah analisis pola, yang merupakan langkah untuk mengevaluasi dan menganalisis pola yang telah ditemukan demi memastikan bahwa pola tersebut benar-benar bermanfaat dan berhubungan dengan tujuan dari analisis. Proses analisis bisa dilakukan dengan menggunakan query, OLAP, metode statistik, atau visualisasi data untuk memudahkan pemahaman mengenai pola yang ada. Output dari tahap ini sering kali dimanfaatkan dalam berbagai bidang, seperti kustomisasi konten situs web, pengembangan sistem rekomendasi, perbaikan desain situs web, sampai penyusunan strategi pemasaran digital. Dengan melakukan analisis yang tepat, hasil dari Web Usage Mining dapat memberikan kontribusi yang berarti bagi pengelola situs web serta penggunanya.
 # 9. Aplikasi dari Web Usage Mining
 1. Product Recommendations, Rekomendasi produk merupakan sebuah sistem yang secara otomatis memberikan saran mengenai produk kepada pengguna situs web berdasarkan data perilaku mereka, termasuk riwayat pembelian, halaman yang diakses, serta popularitas produk. (Kovalenko 2025).
@@ -75,7 +75,9 @@ Web Structure Mining merupakan salah satu bagian dari web mining yang berkonsent
 # Proses Web Mining
 
 <div align="center">
+
 ![Proses Web](ProsesWeb.png)
+
 </div>
 
 ## Pengumpulan data Web 
