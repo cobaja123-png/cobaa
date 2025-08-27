@@ -38,3 +38,5 @@ Ekstraksi kata kunci merupakan langkah untuk memperoleh sekumpulan kata atau fra
 
 # 7. Web Usage Mining 
 Web Usage Mining adalah salah satu aspek dari web mining yang mengutamakan penggalian pola perilaku pengguna berdasarkan data jejak aktivitas mereka saat berinteraksi dengan situs web. Sumber data yang digunakan umumnya diperoleh dari catatan server, proxy server, atau browser, yang mencakup rincian mengenai halaman yang dikunjungi, urutan akses, waktu kunjungan, dan durasi interaksi di setiap halaman. Melalui analisis informasi tersebut, Web Usage Mining dapat menawarkan wawasan tentang keinginan dan preferensi pengguna yang kemudian dimanfaatkan untuk berbagai keperluan, seperti penyesuaian konten, peningkatan kualitas layanan, perbaikan desain situs web, pengembangan sistem rekomendasi, hingga perencanaan strategi pemasaran digital. Dengan demikian, Web Usage Mining memiliki peran yang signifikan dalam membantu pengelola situs web memahami perilaku pengguna secara lebih mendalam sehingga pengalaman pengguna dapat dioptimalkan dan tujuan bisnis dapat dicapai.
+
+![Ini Bukti Turnitin](turnitin.png)
