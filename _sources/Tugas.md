@@ -12,7 +12,11 @@ Pemrosesan data web dan big data di zaman kini berhadapan dengan tantangan yang 
 
 # 3. Taxonomy Web Mining
 
-![alt text](taxonomy.png)
+<div align="center">
+
+![Taxonomy](taxonomy.png)
+
+</div>
 
 Dari gambar tersebut menggambarkan taksonomi Web Mining, yang merupakan pengklasifikasian dari web mining menjadi tiga kategori utama. Pertama adalah Web Content Mining, yang menekankan pada konten atau isi dari halaman web, meliputi teks, gambar, audio, video, dan data yang terstruktur seperti tabel atau metadata. Kedua, Web Structure Mining, yang berkaitan dengan struktur atau relasi di antara halaman-halaman web. Di bagian ini, terdapat analisis hyperlink yang dibagi menjadi intra-document hyperlink (hubungan dalam dokumen yang sama) dan inter-document hyperlink (hubungan antar dokumen yang berbeda), serta analisis struktur dokumen untuk memahami desain dan penggunaan tag HTML atau XML. Ketiga, Web Usage Mining, yang menggunakan data interaksi pengguna dengan situs web, termasuk data dari log server web, log server aplikasi, hingga log tingkat aplikasi untuk mengidentifikasi pola perilaku pengguna. Oleh karena itu, taksonomi ini memberikan pemahaman bahwa web mining bukan hanya sekadar fokus pada konten, tetapi juga mencakup struktur hubungan antara halaman dan perilaku pengguna dalam berinteraksi dengan web(Kumar 2015).
 
@@ -36,12 +40,18 @@ Klasifikasi dokumen merupakan suatu langkah untuk mengenali dan mengelompokkan d
 ## E. Pengelompokan Dokumen 
 Pengelompokan dokumen merupakan teknik dalam penambangan teks yang bertujuan untuk menyusun koleksi dokumen teks ke dalam kategori-kategori berdasarkan persamaan isi atau tema yang ada di dalamnya. Dengan melakukan pengelompokan, dokumen-dokumen yang memiliki karakteristik atau data yang serupa dapat dikelompokkan dalam satu kluster, sehingga memudahkan dalam pencarian, analisis, dan penggunaan informasi dengan cara yang lebih efisien. Teknik ini sangat krusial karena jumlah data teks yang terus berkembang dengan pesat dan beragam, sehingga tanpa adanya pengelompokan, pengguna akan kesulitan dalam menemukan informasi yang relevan(Hayati, Ludviani, and Rosyadi 2015).
 ## F. Ekstraksi Kata Kunci
-Ekstraksi kata kunci merupakan langkah untuk memperoleh sekumpulan kata atau frasa singkat yang mencerminkan inti dari sebuah tulisan. Sasaran dari proses ini adalah untuk mengidentifikasi istilah-istilah penting yang paling berhubungan dengan materi dokumen, sehingga mendukung pengindeksan, pencarian data, dan sistem rekomendasi. Dalam aplikasi pada situs web, kegiatan ekstraksi kata kunci dapat menjadi sulit karena teks sering kali tidak terstruktur dan kata kunci yang dipakai sering kali terlalu umum atau tidak sesuai dengan kontennya, sehingga teknik tertentu diperlukan agar kata kunci yang dihasilkan benar-benar relevan dengan isi dokumen(Nugroho 2019).
+Ekstraksi kata kunci merupakan langkah untuk memperoleh sekumpulan kata atau frasa singkat yang mencerminkan inti dari sebuah tulisan. Sasaran dari proses ini adalah untuk mengidentifikasi istilah-istilah penting yang paling berhubungan dengan materi dokumen, sehingga mendukung pengindeksan, pencarian data, dan sistem rekomendasi. (Nugroho 2019).
 
 # 7. Web Usage Mining 
 Web Usage Mining adalah salah satu aspek dari web mining yang mengutamakan penggalian pola perilaku pengguna berdasarkan data jejak aktivitas mereka saat berinteraksi dengan situs web. Sumber data yang digunakan umumnya diperoleh dari catatan server, proxy server, atau browser, yang mencakup rincian mengenai halaman yang dikunjungi, urutan akses, waktu kunjungan, dan durasi interaksi di setiap halaman. Melalui analisis informasi tersebut, Web Usage Mining dapat menawarkan wawasan tentang keinginan dan preferensi pengguna yang kemudian dimanfaatkan untuk berbagai keperluan, seperti penyesuaian konten, peningkatan kualitas layanan, perbaikan desain situs web, pengembangan sistem rekomendasi, hingga perencanaan strategi pemasaran digital. Dengan demikian, Web Usage Mining memiliki peran yang signifikan dalam membantu pengelola situs web memahami perilaku pengguna secara lebih mendalam sehingga pengalaman pengguna dapat dioptimalkan dan tujuan bisnis dapat dicapai.
 
 # 8. Proses Web Usage Mining
+
+<div align="center">
+
+![Proses](proses.png)
+
+</div>
 
 ## Preprocessing (Pra-pemrosesan Data)
 Tahap awal dari Penambangan Penggunaan Web adalah preprocessing, yang merujuk pada proses pengolahan awal terhadap data mentah yang diambil dari log web, baik berasal dari server, proxy, maupun browser. Log web sering kali berukuran besar, tidak terstruktur, dan mengandung banyak gangguan seperti kunjungan dari bot, permintaan file gambar, atau data duplikat yang tidak relevan untuk analisis. Oleh sebab itu, tahap ini bertujuan untuk membersihkan data, menyaring informasi yang penting, dan melakukan transformasi sehingga data dapat digunakan pada tahap berikutnya. Proses preprocessing sangat krusial karena kualitas data yang diterima akan sangat memengaruhi mutu pola yang dihasilkan.
@@ -61,5 +71,33 @@ Web Structure Mining merupakan salah satu bagian dari web mining yang berkonsent
 1.	Google Search dengan PageRank menggunakan graph mining untuk menganalisis struktur link antar website. Algoritma ini menghitung "otoritas" sebuah halaman berdasarkan jumlah dan kualitas link yang menuju ke halaman tersebut. Semakin banyak website berkualitas yang menlink ke suatu halaman, semakin tinggi ranking-nya dalam hasil pencarian.
 2.	Twitter/Instagram untuk deteksi influencer menggunakan network analysis untuk mengidentifikasi node-node penting dalam graf sosial. Mereka menganalisis follower count, engagement rate, dan betweenness centrality untuk menentukan siapa yang memiliki pengaruh besar dalam menyebarkan informasi. Platform ini juga menggunakan community detection algorithms untuk menemukan cluster users dengan minat serupa.
 3.	Analisis Jaringan Sosial untuk deteksi misinformasi menggunakan graph mining untuk melacak bagaimana informasi menyebar melalui jaringan. Algoritma dapat mengidentifikasi "super spreaders" atau akun yang sering menyebarkan konten viral, serta mendeteksi pola penyebaran yang mencurigakan seperti koordinated inauthentic behavior.
+
+# Proses Web Mining
+
+<div align="center">
+![Proses Web](ProsesWeb.png)
+</div>
+
+## Pengumpulan data Web 
+1.	Web Crawling : dimana mengambil dokumen atau halaman web secara otomatis 
+2.	Web API : dimana mengambi data dari layanan atau platform yang menyediakan api
+## Eksplorasi Data
+1.	Meneliti struktur dan isi data web.
+2.	Melakukan ringkasan statistik untuk memahami distribusi, missing values, atau outlier.
+3.	Membuat visualisasi untuk mempermudah interpretasi.
+## Mentransformasi data ke dalam representasi data yang sesuai dengan metode data mining
+1.	Transformasi data: Mengubah data ke format yang sesuai untuk metode data mining.
+2.	Diskretisasi dan binarisasi: Mengubah data kontinu menjadi kategori atau format biner jika diperlukan.
+3.	Transformasi teks atau atribut menjadi vektor/embedding.
+4.	Reduksi dimensi dan seleksi fitur: Mengurangi jumlah fitur untuk mengurangi kompleksitas model.
+5.	Integrasi berbagai sumber data jika data berasal dari banyak sumber.
+## Pemrosesan data butuh waktu  70-80% dari proyek data mining
+1.	Menggunakan metode data mining untuk membangun model atau menemukan pola.
+2.	Melakukan evaluasi model untuk menilai kualitas prediksi atau pola yang ditemukan.
+## Mempersiapkan data dengan baik akan menghasilkan model yang layak dan valid
+1.	Menguji model dengan hyperparameter berbeda.
+2.	Mencoba beberapa metode data mining lain.
+3.	Memperbaiki praproses data atau pembangkitan fitur.
+4.	Meningkatkan jumlah dan kualitas data pelatihan.
 
 ![Ini Bukti Turnitin](turnitin.png)

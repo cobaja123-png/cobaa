@@ -191,6 +191,7 @@
 
 
 
+
 </ul>
 
     </div>
@@ -411,6 +412,14 @@ document.write(`
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#aplikasi-dari-web-usage-mining">9. Aplikasi dari Web Usage Mining</a></li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#penambangan-struktur-web-web-structure-mining">10. Penambangan Struktur Web (Web Structure Mining)</a></li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#aplikasi-web-structure-mining">11. Aplikasi Web Structure Mining</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#proses-web-mining">Proses Web Mining</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pengumpulan-data-web">Pengumpulan data Web</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#eksplorasi-data">Eksplorasi Data</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mentransformasi-data-ke-dalam-representasi-data-yang-sesuai-dengan-metode-data-mining">Mentransformasi data ke dalam representasi data yang sesuai dengan metode data mining</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pemrosesan-data-butuh-waktu-70-80-dari-proyek-data-mining">Pemrosesan data butuh waktu  70-80% dari proyek data mining</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mempersiapkan-data-dengan-baik-akan-menghasilkan-model-yang-layak-dan-valid">Mempersiapkan data dengan baik akan menghasilkan model yang layak dan valid</a></li>
+</ul>
+</li>
 </ul>
 
             </nav>
@@ -438,7 +447,9 @@ Web merupakan kumpulan informasi dan data yang menawarkan kesempatan besar untuk
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="taxonomy-web-mining">
 <h1>3. Taxonomy Web Mining<a class="headerlink" href="#taxonomy-web-mining" title="Link to this heading">#</a></h1>
-<p><img alt="alt text" src="_images/taxonomy.png" /></p>
+<div align="center">
+<p><img alt="Taxonomy" src="_images/taxonomy.png" /></p>
+</div>
 <p>Dari gambar tersebut menggambarkan taksonomi Web Mining, yang merupakan pengklasifikasian dari web mining menjadi tiga kategori utama. Pertama adalah Web Content Mining, yang menekankan pada konten atau isi dari halaman web, meliputi teks, gambar, audio, video, dan data yang terstruktur seperti tabel atau metadata. Kedua, Web Structure Mining, yang berkaitan dengan struktur atau relasi di antara halaman-halaman web. Di bagian ini, terdapat analisis hyperlink yang dibagi menjadi intra-document hyperlink (hubungan dalam dokumen yang sama) dan inter-document hyperlink (hubungan antar dokumen yang berbeda), serta analisis struktur dokumen untuk memahami desain dan penggunaan tag HTML atau XML. Ketiga, Web Usage Mining, yang menggunakan data interaksi pengguna dengan situs web, termasuk data dari log server web, log server aplikasi, hingga log tingkat aplikasi untuk mengidentifikasi pola perilaku pengguna. Oleh karena itu, taksonomi ini memberikan pemahaman bahwa web mining bukan hanya sekadar fokus pada konten, tetapi juga mencakup struktur hubungan antara halaman dan perilaku pengguna dalam berinteraksi dengan web(Kumar 2015).</p>
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="penambangan-isi-web-content-mining">
@@ -473,7 +484,7 @@ Web merupakan kumpulan informasi dan data yang menawarkan kesempatan besar untuk
 </section>
 <section id="f-ekstraksi-kata-kunci">
 <h2>F. Ekstraksi Kata Kunci<a class="headerlink" href="#f-ekstraksi-kata-kunci" title="Link to this heading">#</a></h2>
-<p>Ekstraksi kata kunci merupakan langkah untuk memperoleh sekumpulan kata atau frasa singkat yang mencerminkan inti dari sebuah tulisan. Sasaran dari proses ini adalah untuk mengidentifikasi istilah-istilah penting yang paling berhubungan dengan materi dokumen, sehingga mendukung pengindeksan, pencarian data, dan sistem rekomendasi. Dalam aplikasi pada situs web, kegiatan ekstraksi kata kunci dapat menjadi sulit karena teks sering kali tidak terstruktur dan kata kunci yang dipakai sering kali terlalu umum atau tidak sesuai dengan kontennya, sehingga teknik tertentu diperlukan agar kata kunci yang dihasilkan benar-benar relevan dengan isi dokumen(Nugroho 2019).</p>
+<p>Ekstraksi kata kunci merupakan langkah untuk memperoleh sekumpulan kata atau frasa singkat yang mencerminkan inti dari sebuah tulisan. Sasaran dari proses ini adalah untuk mengidentifikasi istilah-istilah penting yang paling berhubungan dengan materi dokumen, sehingga mendukung pengindeksan, pencarian data, dan sistem rekomendasi. (Nugroho 2019).</p>
 </section>
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="web-usage-mining">
@@ -482,6 +493,9 @@ Web merupakan kumpulan informasi dan data yang menawarkan kesempatan besar untuk
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="proses-web-usage-mining">
 <h1>8. Proses Web Usage Mining<a class="headerlink" href="#proses-web-usage-mining" title="Link to this heading">#</a></h1>
+<div align="center">
+<p><img alt="Proses" src="_images/proses.png" /></p>
+</div>
 <section id="preprocessing-pra-pemrosesan-data">
 <h2>Preprocessing (Pra-pemrosesan Data)<a class="headerlink" href="#preprocessing-pra-pemrosesan-data" title="Link to this heading">#</a></h2>
 <p>Tahap awal dari Penambangan Penggunaan Web adalah preprocessing, yang merujuk pada proses pengolahan awal terhadap data mentah yang diambil dari log web, baik berasal dari server, proxy, maupun browser. Log web sering kali berukuran besar, tidak terstruktur, dan mengandung banyak gangguan seperti kunjungan dari bot, permintaan file gambar, atau data duplikat yang tidak relevan untuk analisis. Oleh sebab itu, tahap ini bertujuan untuk membersihkan data, menyaring informasi yang penting, dan melakukan transformasi sehingga data dapat digunakan pada tahap berikutnya. Proses preprocessing sangat krusial karena kualitas data yang diterima akan sangat memengaruhi mutu pola yang dihasilkan.</p>
@@ -513,7 +527,54 @@ Web merupakan kumpulan informasi dan data yang menawarkan kesempatan besar untuk
 <li><p>Twitter/Instagram untuk deteksi influencer menggunakan network analysis untuk mengidentifikasi node-node penting dalam graf sosial. Mereka menganalisis follower count, engagement rate, dan betweenness centrality untuk menentukan siapa yang memiliki pengaruh besar dalam menyebarkan informasi. Platform ini juga menggunakan community detection algorithms untuk menemukan cluster users dengan minat serupa.</p></li>
 <li><p>Analisis Jaringan Sosial untuk deteksi misinformasi menggunakan graph mining untuk melacak bagaimana informasi menyebar melalui jaringan. Algoritma dapat mengidentifikasi “super spreaders” atau akun yang sering menyebarkan konten viral, serta mendeteksi pola penyebaran yang mencurigakan seperti koordinated inauthentic behavior.</p></li>
 </ol>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="proses-web-mining">
+<h1>Proses Web Mining<a class="headerlink" href="#proses-web-mining" title="Link to this heading">#</a></h1>
+<div align="center">
+![Proses Web](ProsesWeb.png)
+</div>
+<section id="pengumpulan-data-web">
+<h2>Pengumpulan data Web<a class="headerlink" href="#pengumpulan-data-web" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Web Crawling : dimana mengambil dokumen atau halaman web secara otomatis</p></li>
+<li><p>Web API : dimana mengambi data dari layanan atau platform yang menyediakan api</p></li>
+</ol>
+</section>
+<section id="eksplorasi-data">
+<h2>Eksplorasi Data<a class="headerlink" href="#eksplorasi-data" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Meneliti struktur dan isi data web.</p></li>
+<li><p>Melakukan ringkasan statistik untuk memahami distribusi, missing values, atau outlier.</p></li>
+<li><p>Membuat visualisasi untuk mempermudah interpretasi.</p></li>
+</ol>
+</section>
+<section id="mentransformasi-data-ke-dalam-representasi-data-yang-sesuai-dengan-metode-data-mining">
+<h2>Mentransformasi data ke dalam representasi data yang sesuai dengan metode data mining<a class="headerlink" href="#mentransformasi-data-ke-dalam-representasi-data-yang-sesuai-dengan-metode-data-mining" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Transformasi data: Mengubah data ke format yang sesuai untuk metode data mining.</p></li>
+<li><p>Diskretisasi dan binarisasi: Mengubah data kontinu menjadi kategori atau format biner jika diperlukan.</p></li>
+<li><p>Transformasi teks atau atribut menjadi vektor/embedding.</p></li>
+<li><p>Reduksi dimensi dan seleksi fitur: Mengurangi jumlah fitur untuk mengurangi kompleksitas model.</p></li>
+<li><p>Integrasi berbagai sumber data jika data berasal dari banyak sumber.</p></li>
+</ol>
+</section>
+<section id="pemrosesan-data-butuh-waktu-70-80-dari-proyek-data-mining">
+<h2>Pemrosesan data butuh waktu  70-80% dari proyek data mining<a class="headerlink" href="#pemrosesan-data-butuh-waktu-70-80-dari-proyek-data-mining" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Menggunakan metode data mining untuk membangun model atau menemukan pola.</p></li>
+<li><p>Melakukan evaluasi model untuk menilai kualitas prediksi atau pola yang ditemukan.</p></li>
+</ol>
+</section>
+<section id="mempersiapkan-data-dengan-baik-akan-menghasilkan-model-yang-layak-dan-valid">
+<h2>Mempersiapkan data dengan baik akan menghasilkan model yang layak dan valid<a class="headerlink" href="#mempersiapkan-data-dengan-baik-akan-menghasilkan-model-yang-layak-dan-valid" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>Menguji model dengan hyperparameter berbeda.</p></li>
+<li><p>Mencoba beberapa metode data mining lain.</p></li>
+<li><p>Memperbaiki praproses data atau pembangkitan fitur.</p></li>
+<li><p>Meningkatkan jumlah dan kualitas data pelatihan.</p></li>
+</ol>
 <p><img alt="Ini Bukti Turnitin" src="_images/turnitin.png" /></p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -596,6 +657,14 @@ Web merupakan kumpulan informasi dan data yang menawarkan kesempatan besar untuk
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#aplikasi-dari-web-usage-mining">9. Aplikasi dari Web Usage Mining</a></li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#penambangan-struktur-web-web-structure-mining">10. Penambangan Struktur Web (Web Structure Mining)</a></li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#aplikasi-web-structure-mining">11. Aplikasi Web Structure Mining</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#proses-web-mining">Proses Web Mining</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pengumpulan-data-web">Pengumpulan data Web</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#eksplorasi-data">Eksplorasi Data</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mentransformasi-data-ke-dalam-representasi-data-yang-sesuai-dengan-metode-data-mining">Mentransformasi data ke dalam representasi data yang sesuai dengan metode data mining</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pemrosesan-data-butuh-waktu-70-80-dari-proyek-data-mining">Pemrosesan data butuh waktu  70-80% dari proyek data mining</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mempersiapkan-data-dengan-baik-akan-menghasilkan-model-yang-layak-dan-valid">Mempersiapkan data dengan baik akan menghasilkan model yang layak dan valid</a></li>
+</ul>
+</li>
 </ul>
 
   </nav></div>
