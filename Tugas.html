@@ -192,6 +192,8 @@
 
 
 
+
+
 </ul>
 
     </div>
@@ -413,13 +415,15 @@ document.write(`
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#penambangan-struktur-web-web-structure-mining">10. Penambangan Struktur Web (Web Structure Mining)</a></li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#aplikasi-web-structure-mining">11. Aplikasi Web Structure Mining</a></li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#proses-web-mining">Proses Web Mining</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pengumpulan-data-web">Pengumpulan data Web</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#eksplorasi-data">Eksplorasi Data</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mentransformasi-data-ke-dalam-representasi-data-yang-sesuai-dengan-metode-data-mining">Mentransformasi data ke dalam representasi data yang sesuai dengan metode data mining</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pemrosesan-data-butuh-waktu-70-80-dari-proyek-data-mining">Pemrosesan data butuh waktu  70-80% dari proyek data mining</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mempersiapkan-data-dengan-baik-akan-menghasilkan-model-yang-layak-dan-valid">Mempersiapkan data dengan baik akan menghasilkan model yang layak dan valid</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-pengumpulan-data-web">A. Pengumpulan data Web</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-eksplorasi-data">B. Eksplorasi Data</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-mentransformasi-data-ke-dalam-representasi-data-yang-sesuai-dengan-metode-data-mining">C. Mentransformasi data ke dalam representasi data yang sesuai dengan metode data mining</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#d-pemrosesan-data-butuh-waktu-70-80-dari-proyek-data-mining">D. Pemrosesan data butuh waktu  70-80% dari proyek data mining</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#e-mempersiapkan-data-dengan-baik-akan-menghasilkan-model-yang-layak-dan-valid">E. Mempersiapkan data dengan baik akan menghasilkan model yang layak dan valid</a></li>
 </ul>
 </li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#daftar-pustaka">Daftar Pustaka</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#bukti-turnitin">Bukti Turnitin</a></li>
 </ul>
 
             </nav>
@@ -533,23 +537,23 @@ Web merupakan kumpulan informasi dan data yang menawarkan kesempatan besar untuk
 <div align="center">
 <p><img alt="Proses Web" src="_images/ProsesWeb.png" /></p>
 </div>
-<section id="pengumpulan-data-web">
-<h2>Pengumpulan data Web<a class="headerlink" href="#pengumpulan-data-web" title="Link to this heading">#</a></h2>
+<section id="a-pengumpulan-data-web">
+<h2>A. Pengumpulan data Web<a class="headerlink" href="#a-pengumpulan-data-web" title="Link to this heading">#</a></h2>
 <ol class="arabic simple">
 <li><p>Web Crawling : dimana mengambil dokumen atau halaman web secara otomatis</p></li>
 <li><p>Web API : dimana mengambi data dari layanan atau platform yang menyediakan api</p></li>
 </ol>
 </section>
-<section id="eksplorasi-data">
-<h2>Eksplorasi Data<a class="headerlink" href="#eksplorasi-data" title="Link to this heading">#</a></h2>
+<section id="b-eksplorasi-data">
+<h2>B. Eksplorasi Data<a class="headerlink" href="#b-eksplorasi-data" title="Link to this heading">#</a></h2>
 <ol class="arabic simple">
 <li><p>Meneliti struktur dan isi data web.</p></li>
 <li><p>Melakukan ringkasan statistik untuk memahami distribusi, missing values, atau outlier.</p></li>
 <li><p>Membuat visualisasi untuk mempermudah interpretasi.</p></li>
 </ol>
 </section>
-<section id="mentransformasi-data-ke-dalam-representasi-data-yang-sesuai-dengan-metode-data-mining">
-<h2>Mentransformasi data ke dalam representasi data yang sesuai dengan metode data mining<a class="headerlink" href="#mentransformasi-data-ke-dalam-representasi-data-yang-sesuai-dengan-metode-data-mining" title="Link to this heading">#</a></h2>
+<section id="c-mentransformasi-data-ke-dalam-representasi-data-yang-sesuai-dengan-metode-data-mining">
+<h2>C. Mentransformasi data ke dalam representasi data yang sesuai dengan metode data mining<a class="headerlink" href="#c-mentransformasi-data-ke-dalam-representasi-data-yang-sesuai-dengan-metode-data-mining" title="Link to this heading">#</a></h2>
 <ol class="arabic simple">
 <li><p>Transformasi data: Mengubah data ke format yang sesuai untuk metode data mining.</p></li>
 <li><p>Diskretisasi dan binarisasi: Mengubah data kontinu menjadi kategori atau format biner jika diperlukan.</p></li>
@@ -558,23 +562,43 @@ Web merupakan kumpulan informasi dan data yang menawarkan kesempatan besar untuk
 <li><p>Integrasi berbagai sumber data jika data berasal dari banyak sumber.</p></li>
 </ol>
 </section>
-<section id="pemrosesan-data-butuh-waktu-70-80-dari-proyek-data-mining">
-<h2>Pemrosesan data butuh waktu  70-80% dari proyek data mining<a class="headerlink" href="#pemrosesan-data-butuh-waktu-70-80-dari-proyek-data-mining" title="Link to this heading">#</a></h2>
+<section id="d-pemrosesan-data-butuh-waktu-70-80-dari-proyek-data-mining">
+<h2>D. Pemrosesan data butuh waktu  70-80% dari proyek data mining<a class="headerlink" href="#d-pemrosesan-data-butuh-waktu-70-80-dari-proyek-data-mining" title="Link to this heading">#</a></h2>
 <ol class="arabic simple">
 <li><p>Menggunakan metode data mining untuk membangun model atau menemukan pola.</p></li>
 <li><p>Melakukan evaluasi model untuk menilai kualitas prediksi atau pola yang ditemukan.</p></li>
 </ol>
 </section>
-<section id="mempersiapkan-data-dengan-baik-akan-menghasilkan-model-yang-layak-dan-valid">
-<h2>Mempersiapkan data dengan baik akan menghasilkan model yang layak dan valid<a class="headerlink" href="#mempersiapkan-data-dengan-baik-akan-menghasilkan-model-yang-layak-dan-valid" title="Link to this heading">#</a></h2>
+<section id="e-mempersiapkan-data-dengan-baik-akan-menghasilkan-model-yang-layak-dan-valid">
+<h2>E. Mempersiapkan data dengan baik akan menghasilkan model yang layak dan valid<a class="headerlink" href="#e-mempersiapkan-data-dengan-baik-akan-menghasilkan-model-yang-layak-dan-valid" title="Link to this heading">#</a></h2>
 <ol class="arabic simple">
 <li><p>Menguji model dengan hyperparameter berbeda.</p></li>
 <li><p>Mencoba beberapa metode data mining lain.</p></li>
 <li><p>Memperbaiki praproses data atau pembangkitan fitur.</p></li>
 <li><p>Meningkatkan jumlah dan kualitas data pelatihan.</p></li>
 </ol>
-<p><img alt="Ini Bukti Turnitin" src="_images/turnitin.png" /></p>
 </section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="daftar-pustaka">
+<h1>Daftar Pustaka<a class="headerlink" href="#daftar-pustaka" title="Link to this heading">#</a></h1>
+<ol class="arabic simple">
+<li><p>Asmita, Andhini. 2025. “Manajemen Database Di Era Big Data: Teknologi Dan Tantangan.” <em>Jurnal Sains Student Research</em> 3(3):318–27.</p></li>
+<li><p>Dewi, Pamela Anisa. 2024. “Apa Itu Klasifikasi Dokumen Dan Pentingnya Untuk Bisnis.” <a class="reference external" href="https://mekari.com/blog/apa-itu-klasifikasi-dokumen/">https://mekari.com/blog/apa-itu-klasifikasi-dokumen/</a>.</p></li>
+<li><p>GeeksforGeeks. 2024. “Web Structure Mining.” <a class="reference external" href="https://www.geeksforgeeks.org/data-science/web-structure-mining/">https://www.geeksforgeeks.org/data-science/web-structure-mining/</a>.</p></li>
+<li><p>Hayati, Khadijah F., Resti Ludviani, and Arini R. Rosyadi. 2015. “Pengelompokan Dokumen Menggunakan Dokumen Berlabel Dan Tidak Berlabel Dengan Pendekatan Modified Heuristic Fuzzy Co-Clustering.” <em>Jurnal Buana Informatika</em> 6(2):103–12. doi:10.24002/jbi.v6i2.409.</p></li>
+<li><p>Kovalenko, Oleksii. 2025. “What Are Product Recommendations? Types &amp; Strategies.” <a class="reference external" href="https://wisepops.com/blog/product-recommendations">https://wisepops.com/blog/product-recommendations</a>.</p></li>
+<li><p>Kumar, Shyam Nandan. 2015. “World towards Advance Web Mining: A Review.” <em>American Journal of Systems and Software</em> 3(2):44–61. doi:10.12691/ajss-3-2-3.</p></li>
+<li><p>Maharani, Herastia, and Monica Sanjaya. 2013. “Peringkasan Dokumen Dengan Metode Non-Negative Matrix Factorization.” <em>Jurnal Telematika</em> 8(2):4. doi:10.61769/telematika.v8i2.71.</p></li>
+<li><p>Novarian, Nathanael, Siti Khomsah, and Amalia Beladinna Arifa. 2023. “Topic Modeling Tugas Akhir Mahasiswa Fakultas Informatika Institut Teknologi Telkom Purwokerto Menggunakan Metode Latent Dirichlet Allocation.” <em>LEDGER: Journal Informatic and Information Technology</em> 2(1):14–27.</p></li>
+<li><p>Nugroho, Fajar. 2019. “Ekstraksi Kata Kunci Otomatis Pada Website Menggunakan Semantic Relatedness Dan Artificial Neural Network.” Universitas Komputer Indonesia.</p></li>
+<li><p>Riko, Dinda. 2024. “Apa Itu Personalized Search: Cara Kerja, Fungsi + 4 Hal Terbaru.” <a class="reference external" href="https://www.garuda.website/blog/apa-itu-personalized-search/">https://www.garuda.website/blog/apa-itu-personalized-search/</a>.</p></li>
+<li><p>Suratno, Tri, Toni Prahasto, and Adian Fatchur Rochim. 2014. “Web Usage Mining, Pattern Discovery Dan Log File.” <em>Jurnal Sistem Informasi Bisnis</em> 1(2):94–99. doi:10.21456/vol1iss2pp93-98.</p></li>
+<li><p>Susanti, Erma, and Khabib Mustofa. 2015. “Ekstraksi Informasi Halaman Web Menggunakan Pendekatan Bootstrapping Pada Ontology-Based Information Extraction.” <em>IJCCS (Indonesian Journal of Computing and Cybernetics Systems)</em> 9(2):111. doi:10.22146/ijccs.7540.</p></li>
+</ol>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="bukti-turnitin">
+<h1>Bukti Turnitin<a class="headerlink" href="#bukti-turnitin" title="Link to this heading">#</a></h1>
+<p><img alt="Ini Bukti Turnitin" src="_images/turnitin.png" /></p>
 </section>
 
     <script type="text/x-thebe-config">
@@ -658,13 +682,15 @@ Web merupakan kumpulan informasi dan data yang menawarkan kesempatan besar untuk
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#penambangan-struktur-web-web-structure-mining">10. Penambangan Struktur Web (Web Structure Mining)</a></li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#aplikasi-web-structure-mining">11. Aplikasi Web Structure Mining</a></li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#proses-web-mining">Proses Web Mining</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pengumpulan-data-web">Pengumpulan data Web</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#eksplorasi-data">Eksplorasi Data</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mentransformasi-data-ke-dalam-representasi-data-yang-sesuai-dengan-metode-data-mining">Mentransformasi data ke dalam representasi data yang sesuai dengan metode data mining</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pemrosesan-data-butuh-waktu-70-80-dari-proyek-data-mining">Pemrosesan data butuh waktu  70-80% dari proyek data mining</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mempersiapkan-data-dengan-baik-akan-menghasilkan-model-yang-layak-dan-valid">Mempersiapkan data dengan baik akan menghasilkan model yang layak dan valid</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-pengumpulan-data-web">A. Pengumpulan data Web</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-eksplorasi-data">B. Eksplorasi Data</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-mentransformasi-data-ke-dalam-representasi-data-yang-sesuai-dengan-metode-data-mining">C. Mentransformasi data ke dalam representasi data yang sesuai dengan metode data mining</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#d-pemrosesan-data-butuh-waktu-70-80-dari-proyek-data-mining">D. Pemrosesan data butuh waktu  70-80% dari proyek data mining</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#e-mempersiapkan-data-dengan-baik-akan-menghasilkan-model-yang-layak-dan-valid">E. Mempersiapkan data dengan baik akan menghasilkan model yang layak dan valid</a></li>
 </ul>
 </li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#daftar-pustaka">Daftar Pustaka</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#bukti-turnitin">Bukti Turnitin</a></li>
 </ul>
 
   </nav></div>

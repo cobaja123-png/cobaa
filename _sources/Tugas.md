@@ -80,26 +80,53 @@ Web Structure Mining merupakan salah satu bagian dari web mining yang berkonsent
 
 </div>
 
-## Pengumpulan data Web 
+## A. Pengumpulan data Web 
 1.	Web Crawling : dimana mengambil dokumen atau halaman web secara otomatis 
 2.	Web API : dimana mengambi data dari layanan atau platform yang menyediakan api
-## Eksplorasi Data
+## B. Eksplorasi Data
 1.	Meneliti struktur dan isi data web.
 2.	Melakukan ringkasan statistik untuk memahami distribusi, missing values, atau outlier.
 3.	Membuat visualisasi untuk mempermudah interpretasi.
-## Mentransformasi data ke dalam representasi data yang sesuai dengan metode data mining
+## C. Mentransformasi data ke dalam representasi data yang sesuai dengan metode data mining
 1.	Transformasi data: Mengubah data ke format yang sesuai untuk metode data mining.
 2.	Diskretisasi dan binarisasi: Mengubah data kontinu menjadi kategori atau format biner jika diperlukan.
 3.	Transformasi teks atau atribut menjadi vektor/embedding.
 4.	Reduksi dimensi dan seleksi fitur: Mengurangi jumlah fitur untuk mengurangi kompleksitas model.
 5.	Integrasi berbagai sumber data jika data berasal dari banyak sumber.
-## Pemrosesan data butuh waktu  70-80% dari proyek data mining
+## D. Pemrosesan data butuh waktu  70-80% dari proyek data mining
 1.	Menggunakan metode data mining untuk membangun model atau menemukan pola.
 2.	Melakukan evaluasi model untuk menilai kualitas prediksi atau pola yang ditemukan.
-## Mempersiapkan data dengan baik akan menghasilkan model yang layak dan valid
+## E. Mempersiapkan data dengan baik akan menghasilkan model yang layak dan valid
 1.	Menguji model dengan hyperparameter berbeda.
 2.	Mencoba beberapa metode data mining lain.
 3.	Memperbaiki praproses data atau pembangkitan fitur.
 4.	Meningkatkan jumlah dan kualitas data pelatihan.
 
+# Daftar Pustaka
+1. Asmita, Andhini. 2025. “Manajemen Database Di Era Big Data: Teknologi Dan Tantangan.” *Jurnal Sains Student Research* 3(3):318–27.  
+
+2. Dewi, Pamela Anisa. 2024. “Apa Itu Klasifikasi Dokumen Dan Pentingnya Untuk Bisnis.” https://mekari.com/blog/apa-itu-klasifikasi-dokumen/.  
+
+3. GeeksforGeeks. 2024. “Web Structure Mining.” https://www.geeksforgeeks.org/data-science/web-structure-mining/.  
+
+4. Hayati, Khadijah F., Resti Ludviani, and Arini R. Rosyadi. 2015. “Pengelompokan Dokumen Menggunakan Dokumen Berlabel Dan Tidak Berlabel Dengan Pendekatan Modified Heuristic Fuzzy Co-Clustering.” *Jurnal Buana Informatika* 6(2):103–12. doi:10.24002/jbi.v6i2.409.  
+
+5. Kovalenko, Oleksii. 2025. “What Are Product Recommendations? Types & Strategies.” https://wisepops.com/blog/product-recommendations.  
+
+6. Kumar, Shyam Nandan. 2015. “World towards Advance Web Mining: A Review.” *American Journal of Systems and Software* 3(2):44–61. doi:10.12691/ajss-3-2-3.  
+
+7. Maharani, Herastia, and Monica Sanjaya. 2013. “Peringkasan Dokumen Dengan Metode Non-Negative Matrix Factorization.” *Jurnal Telematika* 8(2):4. doi:10.61769/telematika.v8i2.71.  
+
+8. Novarian, Nathanael, Siti Khomsah, and Amalia Beladinna Arifa. 2023. “Topic Modeling Tugas Akhir Mahasiswa Fakultas Informatika Institut Teknologi Telkom Purwokerto Menggunakan Metode Latent Dirichlet Allocation.” *LEDGER: Journal Informatic and Information Technology* 2(1):14–27.  
+
+9. Nugroho, Fajar. 2019. “Ekstraksi Kata Kunci Otomatis Pada Website Menggunakan Semantic Relatedness Dan Artificial Neural Network.” Universitas Komputer Indonesia.  
+
+10. Riko, Dinda. 2024. “Apa Itu Personalized Search: Cara Kerja, Fungsi + 4 Hal Terbaru.” https://www.garuda.website/blog/apa-itu-personalized-search/.  
+
+11. Suratno, Tri, Toni Prahasto, and Adian Fatchur Rochim. 2014. “Web Usage Mining, Pattern Discovery Dan Log File.” *Jurnal Sistem Informasi Bisnis* 1(2):94–99. doi:10.21456/vol1iss2pp93-98.  
+
+12. Susanti, Erma, and Khabib Mustofa. 2015. “Ekstraksi Informasi Halaman Web Menggunakan Pendekatan Bootstrapping Pada Ontology-Based Information Extraction.” *IJCCS (Indonesian Journal of Computing and Cybernetics Systems)* 9(2):111. doi:10.22146/ijccs.7540.  
+
+
+# Bukti Turnitin
 ![Ini Bukti Turnitin](turnitin.png)
