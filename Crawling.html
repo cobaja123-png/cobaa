@@ -392,7 +392,11 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#install-library-sprynger">1. Install Library Sprynger</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#menyiapkan-api-key">2. Menyiapkan API Key</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#script-crawling-python">3. Script Crawling Python</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#script-crawling-python">3. Script Crawling Python</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a-keyword-web-mining">A. Keyword Web Mining</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#b-keyword-web-usage-mining">B. Keyword Web Usage Mining</a></li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -418,9 +422,7 @@ document.write(`
 </div>
 <div class="cell_output docutils container">
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: sprynger in /usr/local/python/3.12.1/lib/python3.12/site-packages (0.4.1)
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: lxml in /usr/local/python/3.12.1/lib/python3.12/site-packages (from sprynger) (6.0.1)
+Requirement already satisfied: lxml in /usr/local/python/3.12.1/lib/python3.12/site-packages (from sprynger) (6.0.1)
 Requirement already satisfied: requests in /home/codespace/.local/lib/python3.12/site-packages (from sprynger) (2.32.4)
 Requirement already satisfied: urllib3 in /home/codespace/.local/lib/python3.12/site-packages (from sprynger) (2.5.0)
 Requirement already satisfied: platformdirs in /home/codespace/.local/lib/python3.12/site-packages (from sprynger) (4.3.8)
@@ -444,7 +446,8 @@ Daftar di Springer Nature Developer di <a class="reference external" href="https
 <section id="script-crawling-python">
 <h2>3. Script Crawling Python<a class="headerlink" href="#script-crawling-python" title="Link to this heading">#</a></h2>
 <p>Setelah mendapatkan api key dari Springer Nature Developer, masukkan API yang telah didapat ke dalam code dibawah ini, dan saya mengimplementasikannya dengan menggunakan keyword web mining dan web usage mining</p>
-<p>A. Keyword Web Mining</p>
+<section id="a-keyword-web-mining">
+<h3>A. Keyword Web Mining<a class="headerlink" href="#a-keyword-web-mining" title="Link to this heading">#</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
@@ -545,7 +548,9 @@ Abstract: Measuring innovation accurately and efficiently is crucial for policym
 </div>
 </div>
 </div>
-<p>B. Keyword Web Usage Mining</p>
+</section>
+<section id="b-keyword-web-usage-mining">
+<h3>B. Keyword Web Usage Mining<a class="headerlink" href="#b-keyword-web-usage-mining" title="Link to this heading">#</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
@@ -704,6 +709,7 @@ Abstract: To identify robots and humans and analyze their respective access patt
 </div>
 </section>
 </section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -762,7 +768,11 @@ Abstract: To identify robots and humans and analyze their respective access patt
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#install-library-sprynger">1. Install Library Sprynger</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#menyiapkan-api-key">2. Menyiapkan API Key</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#script-crawling-python">3. Script Crawling Python</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#script-crawling-python">3. Script Crawling Python</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a-keyword-web-mining">A. Keyword Web Mining</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#b-keyword-web-usage-mining">B. Keyword Web Usage Mining</a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 
