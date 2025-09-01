@@ -391,6 +391,8 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#install-library-sprynger">1. Install Library Sprynger</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#menyiapkan-api-key">2. Menyiapkan API Key</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#script-crawling-python">3. Script Crawling Python</a></li>
 </ul>
             </nav>
         </div>
@@ -433,6 +435,16 @@ Requirement already satisfied: certifi&gt;=2017.4.17 in /home/codespace/.local/l
 </div>
 </div>
 </div>
+</section>
+<section id="menyiapkan-api-key">
+<h2>2. Menyiapkan API Key<a class="headerlink" href="#menyiapkan-api-key" title="Link to this heading">#</a></h2>
+<p>Setiap pencarian membutuhkan API Key dari Springer Nature agar kita diizinkan mengambil data.
+Daftar di Springer Nature Developer di <a class="reference external" href="https://dev.springernature.com/#api">https://dev.springernature.com/#api</a></p>
+</section>
+<section id="script-crawling-python">
+<h2>3. Script Crawling Python<a class="headerlink" href="#script-crawling-python" title="Link to this heading">#</a></h2>
+<p>Setelah mendapatkan api key dari Springer Nature Developer, masukkan API yang telah didapat ke dalam code dibawah ini, dan saya mengimplementasikannya dengan menggunakan keyword web mining dan web usage mining</p>
+<p>A. Keyword Web Mining</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
@@ -533,6 +545,7 @@ Abstract: Measuring innovation accurately and efficiently is crucial for policym
 </div>
 </div>
 </div>
+<p>B. Keyword Web Usage Mining</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
@@ -748,6 +761,8 @@ Abstract: To identify robots and humans and analyze their respective access patt
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#install-library-sprynger">1. Install Library Sprynger</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#menyiapkan-api-key">2. Menyiapkan API Key</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#script-crawling-python">3. Script Crawling Python</a></li>
 </ul>
   </nav></div>
 
