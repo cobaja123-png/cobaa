@@ -204,6 +204,25 @@
     <li class="toctree-l2"><a class="reference internal" href="Berita.html">Tugas Crawling Website Berita (Sumber dari CNN Indonesia)</a></li>
   </ul>
 </li>
+<li class="toctree-l1">
+  <a href="#" onclick="toggleSubmenu(event)">Crawling ▾</a>
+  <ul class="submenu" style="display:none;">
+    <li class="toctree-l2"><a href="CrawlingPTA.html">Crawling Web PTA Trunojoyo (Clustering)</a></li>
+    <li class="toctree-l2"><a href="Berita.html">Tugas Crawling Website Berita (Sumber dari CNN Indonesia)</a></li>
+  </ul>
+</li>
+
+<script>
+function toggleSubmenu(event) {
+  event.preventDefault();
+  const submenu = event.target.nextElementSibling;
+  if (submenu.style.display === "none") {
+    submenu.style.display = "block";
+  } else {
+    submenu.style.display = "none";
+  }
+}
+</script>
 
 <li class="toctree-l1"><a class="reference internal" href="Crawling_Website_Trunojoyo.html">Install Library</a></li>
 
